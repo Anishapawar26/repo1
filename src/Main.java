@@ -11,5 +11,9 @@ public class Main {
         int cd = a.add(2,3);
         System.out.println("Addition: "+cd);
 
+        Substraction sb = new Substraction();
+        int df = sb.sub(4,6);
+        System.out.println("Sub: "+df);
+
     }
 }
