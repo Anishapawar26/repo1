@@ -6,5 +6,10 @@ public class Main {
         mul obj = new mul();
         int c = obj.multiplication(3,9);
         System.out.println("multiplication :"+c);
+
+        Addition a = new Addition();
+        int cd = a.add(2,3);
+        System.out.println("Addition: "+cd);
+
     }
 }
